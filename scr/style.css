@@ -2,6 +2,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	max-width: 1200px;
 	margin: 0 auto;
+	overflow-y: hidden;
 }
 
 .carrossel {
@@ -80,6 +81,9 @@ main:after {
 
 .botoes-carrossel .botao.selecionado {
     background-color: rgb(111, 226, 111);
+}
+.carrossel, .imagem{
+	overflow-x: hidden;
 }
 
 .imagem {
